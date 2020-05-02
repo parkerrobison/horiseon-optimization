@@ -17,4 +17,4 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-added a serch engine optimization id to SEO's <div>.
+added an id of "search engine optimization" SEO's <article>.
