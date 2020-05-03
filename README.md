@@ -1,20 +1,22 @@
 # Code Refactor Starter Code
-User Story
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
 
-Acceptance Criteria
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+Horiseon Optimization
 
-added an id of "search engine optimization" SEO's <article>.
+Code refactotr Horiseon's website so that it meets accessibility standards and that it is optmized for search engines. Shanges were made in the folllowing documents:
+
+-index.html
+-style.css
+
+Documentation
+
+html
+-added an id of "search engine optimization" SEO's <article>.
+-added alt attributes for the applicable images.
+-added semantic HTML for improved readability. (<header>, <article>, <section>, etc.)
+
+css
+-renamed selectors so they would style matching semantic HTML. (eg. div -> nav)
+-included font-family in the body selector to reduce redundant attributes.
+-increase font-size for better visibility.
+-added line-height to increase readability.
+-gave articles a class of services to consolidate cs code. (for img, h2, and article)
