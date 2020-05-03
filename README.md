@@ -12,6 +12,7 @@ Documentation
 html
 -added an id of "search engine optimization" SEO's <article>.
 -added alt attributes for the applicable images.
+-added an aria label for the hero/jumbotron image
 -added semantic HTML for improved readability. (<header>, <article>, <section>, etc.)
 
 css
@@ -20,3 +21,6 @@ css
 -increase font-size for better visibility.
 -added line-height to increase readability.
 -gave articles a class of services to consolidate cs code. (for img, h2, and article)
+-Consolidated specific class selectors to .benefits img
+-Consolidated specific class selectors to .benefits h3
+-Consolidated specific class selectors to .benefit

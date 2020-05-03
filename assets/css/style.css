@@ -30,7 +30,6 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    
     font-size: 20px;
 }
 
@@ -50,7 +49,7 @@ a {
 
 /* Text of Content and Benefits*/
 p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
@@ -81,6 +80,25 @@ p {
     margin-left: 20px;
 }
 
+/*Merged selcectors into one group for consolidation*/
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Merged selcectors into one group for consolidation*/
+.services img {
+    max-height: 200px;
+}
+
+/*Merged selcectors into one group for consolidation*/
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 46px;
+}
 /*Benefits*/ 
 .benefits {
     margin-right: 20px;
@@ -92,76 +110,23 @@ p {
     background-color: #2589bd;
 }
 
-/*May need to merge these very similar*/
-.benefit-lead {
+/*Consolidated specific class selectors to .benefit*/
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
+    font-size: 16px;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*May need to merge these very similar*/
-.benefit-lead h3 {
+/*Consolidated specific class selectors to .benefits h3*/
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*May need to merge these very similar*/
-.benefit-lead img {
+/*Consolidated specific class selectors to .benefits img*/
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Content */
-/*Merged selcetors into one group for consolidation*/
-.services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Merged selcetors into one group for consolidation*/
-.services img {
-    max-height: 200px;
-}
-
-/*Merged selcetors into one group for consolidation*/
-.services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
